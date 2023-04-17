@@ -6,9 +6,9 @@ export const Navigation = () => {
   const { isLoggedIn } = useAuth();
 
   return (
-    <nav>
+    <div>
       <Nav to="/">Home</Nav>
-      {isLoggedIn && (<Nav to="/contacts">Contacts</Nav>)}
-    </nav>
+      {isLoggedIn && <Nav to="/contacts">Contacts</Nav>}
+    </div>
   );
 };

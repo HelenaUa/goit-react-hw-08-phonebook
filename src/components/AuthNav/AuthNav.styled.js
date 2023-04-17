@@ -7,7 +7,11 @@ export const NavAuth = styled(NavLink)`
   padding: 12px;
   font-weight: 700;
   color: #2a363b;
-  .active {
-  color: #e84a5f;
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+  &.active {
+  color: orangered;
   }`
 
