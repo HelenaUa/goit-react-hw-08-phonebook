@@ -36,8 +36,5 @@ export default function Contacts() {
             </div>
         </HelmetProvider>
     )
-
-
-    
 }
 

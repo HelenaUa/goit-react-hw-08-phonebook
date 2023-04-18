@@ -5,7 +5,6 @@ export const GlobalStyle = createGlobalStyle`
 body {
   // margin: 40px 60px;
   margin: 0 auto;
-  width: 400px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
