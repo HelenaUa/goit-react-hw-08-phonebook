@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 import { BtnDel } from './ListItem.styled';
 
 
-export default function ListItem({ name, phone, onDeleteContact }) {
+export default function ListItem({ name, number, onDeleteContact }) {
     
     return (
         <li>
             <span>{name}: </span>
-            <span>{phone}</span>
+            <span>{number}</span>
             <BtnDel type="button" onClick={onDeleteContact}>Delete</BtnDel>
         </li>
     )
@@ -15,6 +15,6 @@ export default function ListItem({ name, phone, onDeleteContact }) {
 
 ListItem.propTypes = {
     name: PropTypes.string,
-    phone: PropTypes.string,
+    number: PropTypes.string,
     deleteContact: PropTypes.func,
 };
